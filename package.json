@@ -14,6 +14,10 @@
     "quotes",
     "daily"
   ],
+  "dependencies": {
+    "johnnys-node-static": "*",
+    "rssparser":           "*"
+  },
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT",
   "bugs": {

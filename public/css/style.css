@@ -1,0 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Parisienne&subset=latin,latin-ext);
+
+
+h1.quote {
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-family: 'Parisienne', cursive;
+    font-weight: normal;
+}
+
