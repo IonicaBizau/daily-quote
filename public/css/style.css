@@ -16,3 +16,7 @@ h1.quote {
     -o-user-select: none;
 }
 
+h1.quote:hover {
+    cursor: default;
+}
+
