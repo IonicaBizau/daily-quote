@@ -1,10 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Parisienne&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Joti+One);
 
 h1.quote {
-    color: black;
-    text-shadow: 0 0 2px white;
-    font-family: 'Parisienne', cursive;
+    color: white;
+    font-family: 'Joti One', cursive;
     font-weight: normal;
+    text-shadow: 1px    0    0 black,
+                 -1px   0    0 black,
+                 0      1px  0 black,
+                 0      -1px 0 black,
+                 1px    1px    black,
+                 0 0 9px rgb(56, 56, 56);
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
