@@ -14,7 +14,7 @@ $(document).ready(function () {
     /* drag */
     var initialPos = {};
     var drag = false;
-    $(".titleInside").on("mousedown", function (e) {
+    $(".drag").on("mousedown", function (e) {
         drag = true;
         initialPos.x = e.pageX;
         initialPos.y = e.pageY;
@@ -28,7 +28,6 @@ $(document).ready(function () {
         winLeft = current.left + (e.pageX - initialPos.x);
         winTop  = current.top + (e.pageY- initialPos.y);
 
-        $(".pos").text(JSON.stringify({top: winTop, left: winLeft}));
         $API.setWindowPosition(winLeft, winTop);
     });
 
