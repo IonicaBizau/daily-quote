@@ -41,5 +41,7 @@ $(document).ready(function () {
     $("body").on("mouseout mouseup", function () {
         drag = false;
         initial = {};
+    }).on("contextmenu", function () {
+        return false;
     });
 });
