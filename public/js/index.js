@@ -1,8 +1,15 @@
 $(document).ready(function () {
 
-    $.getJSON("/api/getQuote", function (data) {
-        $(".quote").text(data[0].summary);
-    });
+    function updateQuote () {
+        $.getJSON("/api/getQuote", function (data) {
+            $(".quote").text(data[0].summary);
+        });
+    }
+
+    updateQuote();
+    setInterval(function () {
+        updateQuote ();
+    }, 20000);
 
     if (typeof $API === "undefined") {
         alert("Load this page into Johnny's Webview");
