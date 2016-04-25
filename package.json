@@ -1,6 +1,6 @@
 {
   "name": "daily-quote",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Desktop and web application that displays a daily quote.",
   "main": "server.js",
   "scripts": {
@@ -39,5 +39,16 @@
     "ex_img": "http://i.imgur.com/X06sM7J.png"
   },
   "homepage": "https://github.com/IonicaBizau/daily-quote#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
