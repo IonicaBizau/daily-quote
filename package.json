@@ -1,6 +1,6 @@
 {
   "name": "daily-quote",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Desktop and web application that displays a daily quote.",
   "main": "server.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "johnnys-node-static": "*",
     "rssparser": "*"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/daily-quote/issues"
@@ -44,12 +44,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
