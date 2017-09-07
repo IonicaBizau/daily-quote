@@ -1,6 +1,6 @@
 {
   "name": "daily-quote",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Desktop and web application that displays a daily quote.",
   "main": "server.js",
   "scripts": {
@@ -50,6 +50,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
