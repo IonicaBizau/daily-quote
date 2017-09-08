@@ -24,11 +24,9 @@ $ npm i --save daily-quote
 
 
 ### Usage
-
 ```sh
 bat http://eerie-ravine-2337.herokuapp.com/html/index.html -s 700x400 -u -b MOST
 ```
-
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
