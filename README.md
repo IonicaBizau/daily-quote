@@ -12,7 +12,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save daily-quote
+# Using npm
+npm install --save daily-quote
+
+# Using yarn
+yarn add daily-quote
 ```
 
 
